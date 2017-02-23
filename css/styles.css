@@ -1,0 +1,43 @@
+#favorite-websites .row {
+    display:flex;
+    margin: 0;
+    text-align: right;
+    padding-top: 30px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 30px;
+}
+
+
+#header h1 {
+    color:black;
+    font-family: sans-serif;
+    font-size: 50px;
+    text-align: right;
+    margin: 0;
+    position: relative;
+    padding-right: 30px;
+}
+#header h2 {
+    margin: 0;
+    font-size: 25px;
+    text-align: right;
+    position: relative;
+    border-bottom: 3px black solid;
+    padding-right: 30px;
+}
+
+#header img {
+    display:flex;
+}
+
+#main-content-wrapper .row {
+    text-align:center;
+    padding-right: 60px;
+    padding-left: 60px;
+    padding-top: 30px;
+}
+
+body {
+    background-color:white;
+}
