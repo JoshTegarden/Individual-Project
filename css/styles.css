@@ -1,11 +1,8 @@
 #favorite-websites .row {
     margin: 0 auto;
     max-width: 1800px;
-    min-width: 992px;
     padding-top: 5px;
-    text-align:right;
-    display:flex;
-   }
+}
 
 #header {
     padding-top: 30px;
