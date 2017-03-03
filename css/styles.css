@@ -1,6 +1,10 @@
+@media only screen and (min-width: 600px) {
+    .container-fluid {
+        font-size-adjust: auto;
+    }
 
 body {
-   margin: 30px;
+   margin: 50px;
 }
 .container-fluid {
     padding-top: 5px;
@@ -12,6 +16,8 @@ body {
     text-align: right;
     margin: 0;
     position: relative;
+    min-width: 360px;
+    min-height: auto;
 }
 #header h2 {
     color:black;
@@ -20,6 +26,8 @@ body {
     text-align: right;
     margin: 0;
     position: relative;
+    min-width: 360px;
+    min-height: auto;
 }
 
 #header img {
@@ -44,10 +52,8 @@ hr {
     max-width: 1600px;
 }
 
-#favorite-websites {
+#favorite-websites .col-md-4 border {
     text-align: right;
-    max-width: 1800px;
-    min-width: 900px;
     padding-top: 5px;
     padding-bottom: 5PX;
 }
